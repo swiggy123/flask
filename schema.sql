@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS rezepte;
+
+CREATE TABLE rezepte (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    titel VARCHAR NOT NULL,
+    zutaten VARCHAR NOT NULL,
+    beschreibung VARCHAR NOT NULL
+);
+
