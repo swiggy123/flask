@@ -1,0 +1,7 @@
+- Birthyear und Nachname vertauschen (Hat im Browser einen 200 mit Error im Text gegeben)
+- Birthyear vergessen (Hat im Browser einen 200 mit Error im Text gegeben)
+- Verstoss gegen Enum (Gender oder Bloodpurity) (Hat im Browser bei gender "divers" einen 200 mit Error im Text gegeben)
+- Abfrage ohne laufenden Server (Hat im Browser einen 200 mit Error im Text gegeben)
+- StudentsHouse mit nicht existierender ID (gab im Browser eine leere Liste)
+- Delete Insertion (PoSt NewStudent ""DROP TABLE Student" und "DROP TABLE `Hogwarts`.`House`" (zu lang) haben nicht funktioniert
+- Person erfassen und wieder abrufen (last id erfassen)
